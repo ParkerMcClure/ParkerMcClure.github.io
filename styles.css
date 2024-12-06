@@ -26,6 +26,10 @@ h1 {
     border: 2px solid #41906f;
     display: block;
     margin: auto;
+    transition: border-color 0.3s ease;
+}
+.project img:hover {
+    border-color: #daeee6; /* change border color when hovering */
 }
 a { /* change the appearance of ALL links */
     text-decoration: none;
